@@ -10,3 +10,6 @@ class PhoneConnector < ApiConnector
   end
 end
 
+phone = PhoneConnector(title: "My Title", description: "Some Content")
+phone.api_logger
+
